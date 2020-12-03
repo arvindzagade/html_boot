@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Heebo:wght@800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(bg2.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body::after {
+    background: url(bg2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.container {
+    /*border: 12px solid black;*/
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 40%;
+}
+
+.container h1 {
+    font-family: 'Heebo', sans-serif;
+    display: inline;
+    color: #7d406a;
+    font-size: 40px;
+    width: 20%;
+    border-bottom: 5px solid #5f8ca7;
+    margin-bottom: 20px;
+    padding: 15px 0;
+}
+
+.box {
+    width: 100%;
+    border-bottom: 2px solid #5f8ca7;
+    margin: 22px 0px;
+    /*border: 2px solid purple;*/
+}
+
+.box input {
+    font-family: 'Dosis', sans-serif;
+    background: none;
+    width: 75%;
+    margin: 5px 0px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.box i {
+    width: 25px;
+    padding: 0px 5px;
+    text-align: center;
+}
+
+.button {
+    cursor: pointer;
+    outline: none;
+    /*width: 25%;*/
+    margin: 15px 85px;
+    padding: 10px 21px;
+    border: 2px solid #6de76b;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    color: #6de76b;
+    font-weight: bold;
+}
+
+.button:hover {
+    opacity: 0.5;
+    color: black;
+    background: white;
+}
